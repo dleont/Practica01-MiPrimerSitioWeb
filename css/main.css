@@ -128,7 +128,7 @@ nav ul, nav ol {
 img {
 	border: 50;
 	-ms-interpolation-mode: bicubic;
-	vertical-align: middle;
+	vertical-align:auto;
 }
 figure {
 	margin: 200;
