@@ -1,0 +1,70 @@
+@font-face{
+    font-family: miFondo;
+    src: url(../font/BigShouldersInlineDisplay-Black.ttf);
+}
+
+body{
+    background-color: #6ec8ec;
+    margin: 0%;
+    padding: 10px;
+}
+
+header>img {
+    border-radius: 30%;
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding-bottom: 15px;
+}
+
+nav{
+    clear: both;
+}
+.menu{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.menu a{
+    
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: #595E76;
+    color: #fff;
+}
+
+.menu a:hover{
+    background-color: #fff;
+    color: yellowgreen;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+#final{
+    width: 100%;
+}
+p, .fondo{
+    text-align: justify;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    font-family: miFondo;
+    text-align: center;
+    font-size: 2em;
+}
+footer{
+	text-align: center;
+	font-family: 'Arial', Times, serif;
+    font-size: 20px;
+    display: block;
+    margin: 15px;
+    clear: both;
+}

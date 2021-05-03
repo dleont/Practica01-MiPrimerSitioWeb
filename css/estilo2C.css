@@ -1,0 +1,28 @@
+.col-izquierda{
+    display: inline-block;
+    width: 30%;
+    clear: both;
+}
+
+.col-derecha{
+    display: inline-block;
+    width: 60%;
+    clear: both;
+    padding-left: 1%;
+}
+
+.izquierda{
+    width: 30%;
+    padding-left: 1%;
+    float: left;
+}
+
+.derecha{
+    width: 60%;
+    padding-left: 1%;
+    float: left;
+}
+
+footer{
+    clear: both;
+}
